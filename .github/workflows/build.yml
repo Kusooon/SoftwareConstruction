@@ -13,4 +13,3 @@ jobs:
       run: |
          pwd
          g++ -std=c++11 negarr.cpp proxy.cpp testq1.cpp -o main
-         main.exe
