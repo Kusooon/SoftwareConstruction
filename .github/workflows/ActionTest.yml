@@ -10,6 +10,7 @@ jobs:
     - name: Say Hi
       run: echo "Hello World"
  Bye:
+  needs: Hi
   runs-on: windows-2022
   steps:
     - name: Say Bye
