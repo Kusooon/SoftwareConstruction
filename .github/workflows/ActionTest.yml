@@ -1,8 +1,7 @@
 name: ActionTest
 
 on:
- push:
-  branches: ["main"]
+  workflow_dispatch:
 jobs:
  Hi:
   runs-on: windows-2022
