@@ -2,7 +2,7 @@
 #define CATCH_CONFIG_MAIN
 
 #include "catch.hpp"
-#include "qnegarr.h"
+#include "negarr.h"
 
 
 TEST_CASE( "test NegArr creation" ) {
